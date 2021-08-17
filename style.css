@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #131417;
+    overflow: hidden;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header img {
+    float: left;
+}
+
+header .logo {
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+.logo h2 {
+    margin: 0;
+    padding: 4px 0 0 4px;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+}
+
+#siteweb {
+    margin: 0;
+    padding: 0 0 4px 4px;
+    width: 150px;
+}
+
+#siteweb a {
+    color: #9b9dad;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#follow {
+    position: absolute;
+    left: 145px;
+    bottom: -18px;
+    background-color: darkgreen;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#follow a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+#follow:hover, #follow a:hover {
+    color: #fff;
+    background-color: #248c46;
+}
+
+.list {
+    float: right;
+}
+
+.list ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.list ul li {
+    float: left;
+    background-color: #2f4f4f;
+    margin: 0 16px 0;
+    border-radius: 5px;
+}
+
+.list ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 12px 18px;
+}
+
+.list ul li .active {
+    color: black;
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+.list ul li a:hover:not(.active) {
+    background-color: #587272;
+    border-radius: 5px;
+}
+
+.list ul li .active:hover {
+    color: #fff;
+    background-color: #248c46;
+}
+
+/*----main----*/
+#main {
+    margin: 80px 18px 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#title {
+    padding-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #333;
+}
+
+#main p {
+    padding: 0 0 15px 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+}
+
+#img-div {
+    background-color: white;
+    margin: 0 15px 0;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: auto;
+}
+
+#tribute-info h3 {
+    padding-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+#tribute-info ul {
+    padding: 45px;
+}
+
+#tribute-info ul li span {
+    font-family: sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+
+#tribute-info ul li {
+    font-family: sans-serif;
+    color: #333;
+    padding: 15px;
+    line-height: 25px;
+    width: 100%;
+}
+
+#tribute-info p {
+    font-style: italic;
+    text-align: left;
+}
+
+#main h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#main h3 a {
+    color: #74638f;
+}
+
